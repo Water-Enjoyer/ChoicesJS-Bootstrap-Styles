@@ -1,2 +1,2 @@
 # ChoicesJS-Bootstrap-Styles
-(actually for halfmoon)
+Styles to make ChoicesJS look right with Halfmoon/Bootstrap
