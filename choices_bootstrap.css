@@ -1,0 +1,39 @@
+.choices .choices__inner {
+    background-color: var(--bs-form-bg) !important;
+    border-color: var(--bs-border-color) !important;
+}
+
+.choices.is-disabled .choices__inner {
+    color: var(--bs-form-disabled-color) !important;
+    background-color: var(--bs-form-disabled-bg) !important;
+    border-color: var(--bs-form-disabled-border-color) !important;
+}
+
+.choices.is-disabled .choices__list .choices__item {
+    color: var(--bs-form-disabled-color) !important;
+    background-color: var(--bs-form-disabled-bg) !important;
+    border-color: var(--bs-form-disabled-border-color) !important;
+}
+
+.choices .choices__input {
+    background-color: var(--bs-form-bg) !important;
+    border-color: var(--bs-border-color) !important;
+}
+
+.choices .choices__list .choices__item {
+    background-color: var(--bs-form-bg) !important;
+}
+
+.choices .choices__list {
+    border-color: var(--bs-border-color) !important;
+}
+
+.choices .choices__list .choices__item.choices__placeholder {
+    background-color: var(--bs-form-bg) !important;
+    opacity: 1 !important;
+
+}
+
+.choices .choices__list .choices__item.is-highlighted {
+    background-color: hsla(var(--bs-light-hsl), 50) !important;
+}
