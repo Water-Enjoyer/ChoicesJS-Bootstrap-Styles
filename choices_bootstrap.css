@@ -34,6 +34,12 @@
 
 }
 
+.choices.is-disabled .choices__list .choices__item.choices__placeholder {
+    background-color: var(--bs-form-disabled-bg) !important;
+    opacity: 1 !important;
+
+}
+
 .choices .choices__list .choices__item.is-highlighted {
     background-color: hsla(var(--bs-light-hsl), 50) !important;
 }
